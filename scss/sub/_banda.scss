@@ -1,0 +1,57 @@
+.bandaBody {
+    background-color: nth($colores, 2);
+}
+.bandaBoton {
+    @include miBoton (1.8rem);
+}
+
+.bio {
+    color: nth($colores, 1);
+    font-size: 1.5rem;
+}
+.bioImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/joystick2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bandaLan {
+    background-image: url(../images/joystickLan2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.semiBg {
+    color: nth($colores, 1);
+    background: rgba(1, 1, 1, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.integrante {
+    display: flex;
+    align-items: center;
+}
+
+.bandaDesc {
+    text-align: center;
+    margin-right: 1.5rem;
+    h2 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+}
+
+.bandaImg {
+    @include overlayedImg (25rem, rgba(nth($colores, 8), 0.6));
+    margin: 1.5rem;
+    .overlay {
+        margin: 0;
+    }
+}

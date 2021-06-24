@@ -1,0 +1,12 @@
+.galeriaBody {
+    background-color: nth($colores, 2);
+}
+
+.galeriaImg {
+    @include overlayedImg (30rem, rgba(1, 1, 1, 0.6));
+    &:hover {
+        img {
+            filter: blur(1px);
+        }
+    }
+}

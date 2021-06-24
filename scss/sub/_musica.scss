@@ -1,0 +1,79 @@
+.musicaBody {
+    background-color: nth($colores, 2);
+}
+
+.menuMusica {
+    list-style: none;
+    background-color: nth($colores, 4);
+    height: 5rem;
+    font-size: 1.2rem;
+    @include media ($sm) {
+        font-size: 2rem;
+        height: 6rem;
+    } 
+    li a {
+        text-decoration: none;
+        color: nth($colores, 1);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.separador {
+    color: nth($colores, 1);
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.musicaImgConteiner {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    margin-bottom: 5rem;
+    .musicaImg {
+        width: 25rem;
+        align-self: center;
+    }
+    .musicaBtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        button {
+            background-color: black;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 1rem;
+            margin: 0 3rem;
+            p {
+                color: nth($colores, 1);
+            }
+            &:hover {
+                background-color: nth($colores, 1);
+                transition: all 0.5s;
+                p {
+                    color: black;
+                }
+            }
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 8.5rem;
+                text-decoration: none;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.musicaImg {
+    @include overlayedImg (30rem, rgba(nth($colores, 8), 0.7));
+}
+
+.green {
+    color: nth($colores, 6)
+}
+.red {
+    color: nth($colores, 5 )
+}

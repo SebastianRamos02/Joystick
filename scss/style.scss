@@ -1,0 +1,28 @@
+$colores: 
+    #FAFAFA,
+    #1e1a1b,
+    #58604c,
+    #262525,
+    #c4302b,
+    #4AAF50,
+    #401313,
+    #6d3333;
+
+    body {
+        overflow-x: hidden
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    p {
+        margin: 0;
+    }
+@import "sub/mixin";
+@import "sub/_componentes";
+@import "sub/_index";   
+@import "sub/_musica";
+@import "sub/_galeria";
+@import "sub/_contacto";
+@import "sub/_banda";

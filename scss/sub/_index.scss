@@ -1,0 +1,47 @@
+.landing {
+    background-image: url(../images/joysitckLan.png);
+    height: 100vh;
+    // background-position: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.actualizacion {
+    background-color: nth($colores, 2 );
+    color: nth($colores, 1 );
+    border: solid 0.2rem rgba(255,255,255,0.1); 
+    font-size: 1.5rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h2 {
+        font-size: 2.2rem;
+    }
+    a {
+        @include miBoton (1.5rem); 
+    }
+}
+
+.suscribirse {
+    background-color: nth($colores, 8);
+    color: nth($colores, 1);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15rem;
+    h2 {
+        font-size: 2.2rem;
+    }
+    input {
+        padding: 0 0.5rem;
+        width: 20rem;
+    }
+    button {
+        @include miBoton(1.1rem);
+        border: none;
+        outline: none;
+    }
+}

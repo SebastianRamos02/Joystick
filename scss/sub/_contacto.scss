@@ -1,0 +1,66 @@
+.contactoBody {
+    background-color: nth($colores, 2);
+}
+
+.formContacto {
+    color:nth($colores, 1);
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    font-size: 1.2rem;
+    .textInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+        width: 30vw;
+        input {
+            padding: 0 0.5rem;
+            background-color: #ddd;
+        }
+    }
+    .textMsg {
+        display: flex;
+        flex-direction: column;
+        textarea {
+            background-color: #ddd;
+            // background-image: url(../images/correo2.png);
+            // background-position: center;
+            // background-size: cover;
+            width: 35vw;
+            padding: 0.5rem
+        }
+    }
+    .contactoBotones {
+        display: flex;
+        justify-content: flex-end;
+        button {
+            margin:  1rem;
+            @include miBoton (1.5rem)
+        }
+    }
+}
+.correo {
+    img {
+        // display: none;
+        z-index: -5;
+        position:absolute;
+        bottom: 240px;
+        right: 30px;
+        border: none;
+        outline: none;
+        width: 25rem;
+        @include media ($lg) {
+            display:block;
+        }
+    }
+}
+// @include media ($lg) {
+//     .contactoBody{
+//         background-image: url(../images/contacto2.jpg);
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//     }
+//     .formContacto {
+//         color: nth($colores, 2)
+//     }
+// }

@@ -1,0 +1,421 @@
+body {
+  overflow-x: hidden; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+p {
+  margin: 0; }
+
+.navbar {
+  background-color: #58604c; }
+  @media only screen and (min-width: 992px) {
+    .navbar {
+      font-size: 1.3rem;
+      padding: 0rem 0; } }
+  .navbar .joystick {
+    font-size: 2rem;
+    color: #ddd;
+    text-decoration: none; }
+    @media only screen and (min-width: 992px) {
+      .navbar .joystick {
+        font-size: 3rem; } }
+    .navbar .joystick:hover {
+      color: #ddd; }
+  @media only screen and (min-width: 992px) {
+    .navbar .nav-item {
+      align-self: center;
+      padding: 0 0.5rem; } }
+  .navbar .nav-item .nav-link {
+    color: #ddd; }
+    .navbar .nav-item .nav-link:hover {
+      text-decoration: underline; }
+  .navbar .nav-item .dropdown-menu {
+    background-color: #FAFAFA;
+    width: 10%; }
+    .navbar .nav-item .dropdown-menu .dropdown-item:active {
+      background-color: #58604c;
+      color: black; }
+
+@media only screen and (min-width: 992px) {
+  .noBack {
+    background: none; } }
+
+.actual {
+  background-color: #6d775e;
+  border-radius: 2rem; }
+
+.navbar-toggler-icon {
+  background-image: url(../icons/menu.png); }
+
+.redes {
+  background-color: #58604c;
+  margin: 0; }
+  .redes img {
+    padding: 0.5rem 0;
+    width: 3rem; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(109, 51, 51, 0.8);
+  padding: 0.5rem;
+  border-radius: 50%; }
+  #myBtn img {
+    width: 4rem; }
+
+.landing {
+  background-image: url(../images/joysitckLan.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.actualizacion {
+  background-color: #1e1a1b;
+  color: #FAFAFA;
+  border: solid 0.2rem rgba(255, 255, 255, 0.1);
+  font-size: 1.5rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .actualizacion h2 {
+    font-size: 2.2rem; }
+  .actualizacion a {
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+    align-self: center;
+    background-color: #ddd;
+    color: #1e1a1b; }
+    .actualizacion a:hover {
+      background-color: #aeaeae; }
+
+.suscribirse {
+  background-color: #6d3333;
+  color: #FAFAFA;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 15rem; }
+  .suscribirse h2 {
+    font-size: 2.2rem; }
+  .suscribirse input {
+    padding: 0 0.5rem;
+    width: 20rem; }
+  .suscribirse button {
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+    align-self: center;
+    background-color: #ddd;
+    color: #1e1a1b;
+    border: none;
+    outline: none; }
+    .suscribirse button:hover {
+      background-color: #aeaeae; }
+
+.musicaBody {
+  background-color: #1e1a1b; }
+
+.menuMusica {
+  list-style: none;
+  background-color: #262525;
+  height: 5rem;
+  font-size: 1.2rem; }
+  @media only screen and (min-width: 576px) {
+    .menuMusica {
+      font-size: 2rem;
+      height: 6rem; } }
+  .menuMusica li a {
+    text-decoration: none;
+    color: #FAFAFA; }
+    .menuMusica li a:hover {
+      text-decoration: underline; }
+
+.separador {
+  color: #FAFAFA;
+  text-align: center;
+  font-size: 2.8rem; }
+
+.musicaImgConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5rem; }
+  .musicaImgConteiner .musicaImg {
+    width: 25rem;
+    align-self: center; }
+  .musicaImgConteiner .musicaBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; }
+    .musicaImgConteiner .musicaBtn button {
+      background-color: black;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      margin: 0 3rem; }
+      .musicaImgConteiner .musicaBtn button p {
+        color: #FAFAFA; }
+      .musicaImgConteiner .musicaBtn button:hover {
+        background-color: #FAFAFA;
+        transition: all 0.5s; }
+        .musicaImgConteiner .musicaBtn button:hover p {
+          color: black; }
+      .musicaImgConteiner .musicaBtn button a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.5rem;
+        text-decoration: none;
+        font-size: 1rem; }
+
+.musicaImg {
+  position: relative;
+  width: 30rem;
+  display: flex; }
+  .musicaImg img {
+    align-self: center;
+    display: block;
+    width: 100%; }
+  .musicaImg .overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(109, 51, 51, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    transition: all 0.25s ease; }
+    .musicaImg .overlay:hover {
+      opacity: 1; }
+    .musicaImg .overlay .overlayText {
+      width: 100%;
+      color: #FAFAFA;
+      font-size: 2.5rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center; }
+    .musicaImg .overlay .overlayIcons {
+      display: flex; }
+      .musicaImg .overlay .overlayIcons a {
+        display: flex;
+        justify-content: space-around;
+        width: 6rem; }
+
+.green {
+  color: #4AAF50; }
+
+.red {
+  color: #c4302b; }
+
+.galeriaBody {
+  background-color: #1e1a1b; }
+
+.galeriaImg {
+  position: relative;
+  width: 30rem;
+  display: flex; }
+  .galeriaImg img {
+    align-self: center;
+    display: block;
+    width: 100%; }
+  .galeriaImg .overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    transition: all 0.25s ease; }
+    .galeriaImg .overlay:hover {
+      opacity: 1; }
+    .galeriaImg .overlay .overlayText {
+      width: 100%;
+      color: #FAFAFA;
+      font-size: 2.5rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center; }
+    .galeriaImg .overlay .overlayIcons {
+      display: flex; }
+      .galeriaImg .overlay .overlayIcons a {
+        display: flex;
+        justify-content: space-around;
+        width: 6rem; }
+  .galeriaImg:hover img {
+    filter: blur(1px); }
+
+.contactoBody {
+  background-color: #1e1a1b; }
+
+.formContacto {
+  color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  font-size: 1.2rem; }
+  .formContacto .textInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 30vw; }
+    .formContacto .textInfo input {
+      padding: 0 0.5rem;
+      background-color: #ddd; }
+  .formContacto .textMsg {
+    display: flex;
+    flex-direction: column; }
+    .formContacto .textMsg textarea {
+      background-color: #ddd;
+      width: 35vw;
+      padding: 0.5rem; }
+  .formContacto .contactoBotones {
+    display: flex;
+    justify-content: flex-end; }
+    .formContacto .contactoBotones button {
+      margin: 1rem;
+      font-size: 1.5rem;
+      border-radius: 0.5rem;
+      padding: 0.3rem 0.5rem;
+      text-decoration: none;
+      align-self: center;
+      background-color: #ddd;
+      color: #1e1a1b; }
+      .formContacto .contactoBotones button:hover {
+        background-color: #aeaeae; }
+
+.correo img {
+  z-index: -5;
+  position: absolute;
+  bottom: 240px;
+  right: 30px;
+  border: none;
+  outline: none;
+  width: 25rem; }
+  @media only screen and (min-width: 992px) {
+    .correo img {
+      display: block; } }
+
+.bandaBody {
+  background-color: #1e1a1b; }
+
+.bandaBoton {
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  text-decoration: none;
+  align-self: center;
+  background-color: #ddd;
+  color: #1e1a1b; }
+  .bandaBoton:hover {
+    background-color: #aeaeae; }
+
+.bio {
+  color: #FAFAFA;
+  font-size: 1.5rem; }
+
+.bioImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/joystick2.png);
+  background-size: cover;
+  background-position: center; }
+
+.bandaLan {
+  background-image: url(../images/joystickLan2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.semiBg {
+  color: #FAFAFA;
+  background: rgba(1, 1, 1, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.integrante {
+  display: flex;
+  align-items: center; }
+
+.bandaDesc {
+  text-align: center;
+  margin-right: 1.5rem; }
+  .bandaDesc h2 {
+    font-size: 3rem; }
+  .bandaDesc p {
+    font-size: 2rem; }
+
+.bandaImg {
+  position: relative;
+  width: 25rem;
+  display: flex;
+  margin: 1.5rem; }
+  .bandaImg img {
+    align-self: center;
+    display: block;
+    width: 100%; }
+  .bandaImg .overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(109, 51, 51, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    transition: all 0.25s ease; }
+    .bandaImg .overlay:hover {
+      opacity: 1; }
+    .bandaImg .overlay .overlayText {
+      width: 100%;
+      color: #FAFAFA;
+      font-size: 2.5rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center; }
+    .bandaImg .overlay .overlayIcons {
+      display: flex; }
+      .bandaImg .overlay .overlayIcons a {
+        display: flex;
+        justify-content: space-around;
+        width: 6rem; }
+  .bandaImg .overlay {
+    margin: 0; }
