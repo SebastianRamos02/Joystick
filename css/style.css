@@ -19,6 +19,8 @@ p {
     font-size: 2rem;
     color: #ddd;
     text-decoration: none; }
+    .navbar .joystick h1 {
+      margin: 0; }
     @media only screen and (min-width: 992px) {
       .navbar .joystick {
         font-size: 3rem; } }
@@ -29,6 +31,7 @@ p {
       align-self: center;
       padding: 0 0.5rem; } }
   .navbar .nav-item .nav-link {
+    padding: 0.2rem;
     color: #ddd; }
     .navbar .nav-item .nav-link:hover {
       text-decoration: underline; }
@@ -37,7 +40,7 @@ p {
     width: 10%; }
     .navbar .nav-item .dropdown-menu .dropdown-item:active {
       background-color: #58604c;
-      color: black; }
+      color: #FAFAFA; }
 
 @media only screen and (min-width: 992px) {
   .noBack {
@@ -52,7 +55,8 @@ p {
 
 .redes {
   background-color: #58604c;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
   .redes img {
     padding: 0.5rem 0;
     width: 3rem; }
@@ -72,11 +76,18 @@ p {
     width: 4rem; }
 
 .landing {
-  background-image: url(../images/joysitckLan.png);
-  height: 100vh;
-  background-position: center;
+  background-image: url(../images/joystickPhoneLan.jpg);
+  height: 90vh;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-position: center;
+  background-position-y: top; }
+  @media only screen and (min-width: 992px) {
+    .landing {
+      background-image: url(../images/joysitckLan.png);
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; } }
 
 .actualizacion {
   background-color: #1e1a1b;
@@ -222,6 +233,8 @@ p {
         display: flex;
         justify-content: space-around;
         width: 6rem; }
+  .musicaImg img {
+    width: 100%; }
 
 .green {
   color: #4AAF50; }
@@ -279,16 +292,17 @@ p {
   background-color: #1e1a1b; }
 
 .formContacto {
+  margin-top: 3rem;
   color: #FAFAFA;
   display: flex;
   justify-content: center;
-  height: 90vh;
-  font-size: 1.2rem; }
+  font-size: 1rem;
+  height: 85vh; }
   .formContacto .textInfo {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0;
-    width: 30vw; }
+    margin: 1rem 0;
+    width: 50vw; }
     .formContacto .textInfo input {
       padding: 0 0.5rem;
       background-color: #ddd; }
@@ -297,14 +311,15 @@ p {
     flex-direction: column; }
     .formContacto .textMsg textarea {
       background-color: #ddd;
-      width: 35vw;
+      height: 10rem;
+      width: 55vw;
       padding: 0.5rem; }
   .formContacto .contactoBotones {
     display: flex;
     justify-content: flex-end; }
     .formContacto .contactoBotones button {
-      margin: 1rem;
-      font-size: 1.5rem;
+      margin: 0.5rem 0 0 0.5rem;
+      font-size: 0.8rem;
       border-radius: 0.5rem;
       padding: 0.3rem 0.5rem;
       text-decoration: none;
@@ -313,24 +328,48 @@ p {
       color: #1e1a1b; }
       .formContacto .contactoBotones button:hover {
         background-color: #aeaeae; }
+  @media only screen and (min-width: 992px) {
+    .formContacto {
+      margin-top: 2rem;
+      height: 90vh;
+      font-size: 1.2rem; }
+      .formContacto .textInfo {
+        margin: 2rem 0;
+        width: 30vw; }
+      .formContacto .textMsg textarea {
+        width: 35vw;
+        height: 30vh; }
+      .formContacto .contactoBotones button {
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        padding: 0.3rem 0.5rem;
+        text-decoration: none;
+        align-self: center;
+        background-color: #ddd;
+        color: #1e1a1b; }
+        .formContacto .contactoBotones button:hover {
+          background-color: #aeaeae; } }
 
 .correo img {
   z-index: -5;
   position: absolute;
-  bottom: 240px;
-  right: 30px;
+  top: 7rem;
+  right: 0.3rem;
   border: none;
   outline: none;
-  width: 25rem; }
+  width: 10rem; }
   @media only screen and (min-width: 992px) {
     .correo img {
-      display: block; } }
+      width: 25rem;
+      display: block;
+      bottom: 15rem;
+      right: 2rem; } }
 
 .bandaBody {
   background-color: #1e1a1b; }
 
 .bandaBoton {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   text-decoration: none;
@@ -362,19 +401,23 @@ p {
   background: rgba(1, 1, 1, 0.7);
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: s  ce-around; }
 
 .integrante {
   display: flex;
   align-items: center; }
 
 .bandaDesc {
-  text-align: center;
-  margin-right: 1.5rem; }
+  text-align: center; }
   .bandaDesc h2 {
-    font-size: 3rem; }
+    font-size: 1.8rem; }
   .bandaDesc p {
-    font-size: 2rem; }
+    font-size: 1rem; }
+  @media only screen and (min-width: 576px) {
+    .bandaDesc h2 {
+      font-size: 3rem; }
+    .bandaDesc p {
+      font-size: 2rem; } }
 
 .bandaImg {
   position: relative;

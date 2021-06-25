@@ -2,7 +2,7 @@
     background-color: nth($colores, 2);
 }
 .bandaBoton {
-    @include miBoton (1.8rem);
+    @include miBoton (1.2rem);
 }
 
 .bio {
@@ -29,7 +29,7 @@
     background: rgba(1, 1, 1, 0.7);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: s  ce-around;
 }
 
 .integrante {
@@ -39,12 +39,19 @@
 
 .bandaDesc {
     text-align: center;
-    margin-right: 1.5rem;
     h2 {
-        font-size: 3rem;
+        font-size: 1.8rem;
     }
     p {
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+    @include media ($sm) {
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 2rem;
+        }
     }
 }
 

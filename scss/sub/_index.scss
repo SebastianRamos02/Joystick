@@ -1,11 +1,16 @@
 .landing {
+    background-image: url(../images/joystickPhoneLan.jpg);
+    height: 90vh;
+    background-size:cover;
+    background-position: center;
+    background-position-y: top;
+    @include media ($lg) {
     background-image: url(../images/joysitckLan.png);
     height: 100vh;
-    // background-position: 70%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+}
 }
 .actualizacion {
     background-color: nth($colores, 2 );
