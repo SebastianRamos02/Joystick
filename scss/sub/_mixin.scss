@@ -67,11 +67,11 @@ $xxl: 1400px;
             text-align: center; 
         }
         .overlayIcons {
+            width: 12rem;
             display: flex;
+            justify-content: space-around;
             a {
-                display: flex;
-                justify-content: space-around;
-                width: 6rem;
+                width: 5rem;
             }
         }
     }

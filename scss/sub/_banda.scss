@@ -45,6 +45,10 @@
     p {
         font-size: 1rem;
     }
+    img {
+        margin-top: 0.5rem;
+        width: 2rem;
+    }
     @include media ($sm) {
         h2 {
             font-size: 3rem;

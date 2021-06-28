@@ -152,6 +152,8 @@ p {
   z-index: 99;
   border: none;
   outline: none; }
+  .cafecito div {
+    padding: 0.4rem; }
 
 .musicaBody {
   background-color: #1e1a1b; }
@@ -191,23 +193,15 @@ p {
     .musicaImgConteiner .musicaBtn button {
       background-color: black;
       border: none;
-      padding: 0.5rem 1rem;
       border-radius: 1rem;
-      margin: 0 3rem; }
-      .musicaImgConteiner .musicaBtn button p {
-        color: #FAFAFA; }
+      margin: 0 2.5rem; }
       .musicaImgConteiner .musicaBtn button:hover {
         background-color: #FAFAFA;
         transition: all 0.5s; }
-        .musicaImgConteiner .musicaBtn button:hover p {
-          color: black; }
       .musicaImgConteiner .musicaBtn button a {
         display: flex;
         justify-content: center;
-        align-items: center;
-        width: 8.5rem;
-        text-decoration: none;
-        font-size: 1rem; }
+        padding: 0.5rem 2rem; }
 
 .musicaImg {
   position: relative;
@@ -244,13 +238,13 @@ p {
       transform: translate(-50%, -50%);
       text-align: center; }
     .musicaImg .overlay .overlayIcons {
-      display: flex; }
+      width: 12rem;
+      display: flex;
+      justify-content: space-around; }
       .musicaImg .overlay .overlayIcons a {
-        display: flex;
-        justify-content: space-around;
-        width: 6rem; }
+        width: 5rem; }
   .musicaImg img {
-    width: 100%; }
+    width: 25rem; }
 
 .green {
   color: #4AAF50; }
@@ -296,11 +290,11 @@ p {
       transform: translate(-50%, -50%);
       text-align: center; }
     .galeriaImg .overlay .overlayIcons {
-      display: flex; }
+      width: 12rem;
+      display: flex;
+      justify-content: space-around; }
       .galeriaImg .overlay .overlayIcons a {
-        display: flex;
-        justify-content: space-around;
-        width: 6rem; }
+        width: 5rem; }
   .galeriaImg:hover img {
     filter: blur(1px); }
 
@@ -429,6 +423,9 @@ p {
     font-size: 1.8rem; }
   .bandaDesc p {
     font-size: 1rem; }
+  .bandaDesc img {
+    margin-top: 0.5rem;
+    width: 2rem; }
   @media only screen and (min-width: 576px) {
     .bandaDesc h2 {
       font-size: 3rem; }
@@ -471,10 +468,10 @@ p {
       transform: translate(-50%, -50%);
       text-align: center; }
     .bandaImg .overlay .overlayIcons {
-      display: flex; }
+      width: 12rem;
+      display: flex;
+      justify-content: space-around; }
       .bandaImg .overlay .overlayIcons a {
-        display: flex;
-        justify-content: space-around;
-        width: 6rem; }
+        width: 5rem; }
   .bandaImg .overlay {
     margin: 0; }
