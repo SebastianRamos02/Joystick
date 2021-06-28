@@ -67,6 +67,11 @@
         width: 3rem;
     }
 }
+.copyright {
+    color: darken(nth($colores, 1), 50%);
+    text-align: center;
+    background-color: darken(nth($colores, 3), 8%);
+}
 
 // Boton "scroll to top"
 #myBtn {

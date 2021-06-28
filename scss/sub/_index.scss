@@ -48,5 +48,18 @@
         @include miBoton(1.1rem);
         border: none;
         outline: none;
+        margin-top: 0.3rem;
     }
+}
+
+
+.cafecito {
+    padding: 0;
+    display: none;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 3rem;
+    z-index: 99;
+    border: none;
+    outline: none;
 }

@@ -61,6 +61,11 @@ p {
     padding: 0.5rem 0;
     width: 3rem; }
 
+.copyright {
+  color: #7b7b7b;
+  text-align: center;
+  background-color: #43493a; }
+
 #myBtn {
   display: none;
   position: fixed;
@@ -133,9 +138,20 @@ p {
     background-color: #ddd;
     color: #1e1a1b;
     border: none;
-    outline: none; }
+    outline: none;
+    margin-top: 0.3rem; }
     .suscribirse button:hover {
       background-color: #aeaeae; }
+
+.cafecito {
+  padding: 0;
+  display: none;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 3rem;
+  z-index: 99;
+  border: none;
+  outline: none; }
 
 .musicaBody {
   background-color: #1e1a1b; }
