@@ -37,13 +37,17 @@ p {
     .navbar .nav-item .nav-link:hover {
       text-decoration: underline; }
   .navbar .nav-item .dropdown-menu {
-    background-color: #1e1a1b;
-    width: 10%; }
+    background-color: #6d775e;
+    border: none;
+    width: 10%;
+    margin-bottom: 0.5rem; }
     .navbar .nav-item .dropdown-menu .dropdown-item {
       color: #FAFAFA; }
       .navbar .nav-item .dropdown-menu .dropdown-item:active {
         background-color: #58604c;
         color: #FAFAFA; }
+      .navbar .nav-item .dropdown-menu .dropdown-item:focus, .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+        background-color: #58604c; }
 
 @media only screen and (min-width: 992px) {
   .noBack {
