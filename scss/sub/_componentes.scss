@@ -33,9 +33,10 @@
             }
         }
         .dropdown-menu {
-            background-color: nth($colores, 1);
+            background-color: nth($colores, 2);
             width: 10%;
             .dropdown-item {
+                color: nth($colores, 1);
                 &:active {
                     background-color: nth($colores, 3);
                     color: nth($colores, 1)
@@ -70,11 +71,6 @@
         padding: 0.5rem 0;
         width: 2.5rem;
     }
-}
-.copyright {
-    color: darken(nth($colores, 1), 50%);
-    text-align: center;
-    background-color: darken(nth($colores, 3), 8%);
 }
 
 // Boton "scroll to top"

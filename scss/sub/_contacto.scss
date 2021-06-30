@@ -16,18 +16,22 @@
         width: 50vw;
         input {
             padding: 0 0.5rem;
-            background-color: #ddd;
+            // background-color: #ddd;
+            background-color: lighten(nth($colores, 2), 5%);
+            // background:none;
+            color: #ddd;
         }
     }
     .textMsg {
         display: flex;
         flex-direction: column;
         textarea {
-            background-color: #ddd;
+            background-color: lighten(nth($colores, 2), 50%);
+            color: #ddd;
             height: 10rem;
             width: 55vw;
             padding: 0.5rem;
-                background-image: url(../images/correo3.png);
+                background-image: url(../images/correo2.jpg);
                 background-position: center;
                 background-size: cover;
         }
@@ -56,8 +60,9 @@
     }
     .contactoBotones {
         button {
-            // margin: 1rem;
             @include miBoton (1.5rem);
+            color: nth($colores, 1);
+            background: none;
         }
     }
 }
