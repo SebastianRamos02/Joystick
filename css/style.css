@@ -346,7 +346,9 @@ p {
       align-self: center;
       background-color: none;
       border: solid 0.1rem #FAFAFA;
-      color: #FAFAFA; }
+      color: #FAFAFA;
+      color: #FAFAFA;
+      background: none; }
       .formContacto .contactoBotones button:hover {
         background-color: #FAFAFA;
         color: #1e1a1b; }
@@ -362,19 +364,7 @@ p {
         width: 35vw;
         height: 30vh; }
       .formContacto .contactoBotones button {
-        font-size: 1.5rem;
-        border-radius: 0.5rem;
-        padding: 0.3rem 0.5rem;
-        text-decoration: none;
-        align-self: center;
-        background-color: none;
-        border: solid 0.1rem #FAFAFA;
-        color: #FAFAFA;
-        color: #FAFAFA;
-        background: none; }
-        .formContacto .contactoBotones button:hover {
-          background-color: #FAFAFA;
-          color: #1e1a1b; } }
+        font-size: 1.5rem; } }
 
 .bandaBody {
   background-color: #1e1a1b; }
