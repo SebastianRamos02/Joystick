@@ -10,7 +10,8 @@ p {
   margin: 0; }
 
 .navbar {
-  background-color: #58604c; }
+  background-color: #58604c;
+  font-size: 1.5rem; }
   @media only screen and (min-width: 992px) {
     .navbar {
       font-size: 1.3rem;
@@ -51,7 +52,7 @@ p {
   border-radius: 2rem; }
 
 .navbar-toggler-icon {
-  background-image: url(../icons/menu.png); }
+  background-image: url(../images/menu.png); }
 
 .redes {
   background-color: #58604c;
@@ -59,7 +60,10 @@ p {
   padding: 0; }
   .redes img {
     padding: 0.5rem 0;
-    width: 3rem; }
+    width: 2.5rem; }
+    @media only screen and (min-width: 992px) {
+      .redes img {
+        width: 3rem; } }
 
 .copyright {
   color: #7b7b7b;
@@ -67,6 +71,7 @@ p {
   background-color: #43493a; }
 
 #myBtn {
+  visibility: hidden;
   display: none;
   position: fixed;
   bottom: 10px;
@@ -77,11 +82,14 @@ p {
   background-color: rgba(109, 51, 51, 0.8);
   padding: 0.5rem;
   border-radius: 50%; }
+  @media only screen and (min-width: 992px) {
+    #myBtn {
+      visibility: visible; } }
   #myBtn img {
-    width: 4rem; }
+    width: 3rem; }
 
 .landing {
-  background-image: url(../images/joystickPhoneLan.jpg);
+  background-image: url(../images/joystickPhoneLan2.jpg);
   height: 90vh;
   background-size: cover;
   background-position: center;
@@ -162,7 +170,7 @@ p {
   list-style: none;
   background-color: #262525;
   height: 5rem;
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }
   @media only screen and (min-width: 576px) {
     .menuMusica {
       font-size: 2rem;
@@ -179,12 +187,13 @@ p {
   font-size: 2.8rem; }
 
 .musicaImgConteiner {
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 5rem; }
+  margin-bottom: 3rem; }
   .musicaImgConteiner .musicaImg {
-    width: 25rem;
+    width: 20rem;
     align-self: center; }
   .musicaImgConteiner .musicaBtn {
     display: flex;
@@ -201,11 +210,11 @@ p {
       .musicaImgConteiner .musicaBtn button a {
         display: flex;
         justify-content: center;
-        padding: 0.5rem 2rem; }
+        padding: 0; }
 
 .musicaImg {
   position: relative;
-  width: 30rem;
+  width: 10rem;
   display: flex; }
   .musicaImg img {
     align-self: center;
@@ -243,14 +252,6 @@ p {
       justify-content: space-around; }
       .musicaImg .overlay .overlayIcons a {
         width: 5rem; }
-  .musicaImg img {
-    width: 25rem; }
-
-.green {
-  color: #4AAF50; }
-
-.red {
-  color: #c4302b; }
 
 .galeriaBody {
   background-color: #1e1a1b; }
@@ -323,7 +324,10 @@ p {
       background-color: #ddd;
       height: 10rem;
       width: 55vw;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      background-image: url(../images/correo3.png);
+      background-position: center;
+      background-size: cover; }
   .formContacto .contactoBotones {
     display: flex;
     justify-content: flex-end; }
@@ -359,21 +363,6 @@ p {
         color: #1e1a1b; }
         .formContacto .contactoBotones button:hover {
           background-color: #aeaeae; } }
-
-.correo img {
-  z-index: -5;
-  position: absolute;
-  top: 7rem;
-  right: 0.3rem;
-  border: none;
-  outline: none;
-  width: 10rem; }
-  @media only screen and (min-width: 992px) {
-    .correo img {
-      width: 25rem;
-      display: block;
-      bottom: 15rem;
-      right: 2rem; } }
 
 .bandaBody {
   background-color: #1e1a1b; }
@@ -425,7 +414,7 @@ p {
     font-size: 1rem; }
   .bandaDesc img {
     margin-top: 0.5rem;
-    width: 2rem; }
+    width: 3rem; }
   @media only screen and (min-width: 576px) {
     .bandaDesc h2 {
       font-size: 3rem; }

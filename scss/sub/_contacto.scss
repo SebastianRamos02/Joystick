@@ -27,9 +27,9 @@
             height: 10rem;
             width: 55vw;
             padding: 0.5rem;
-                // background-image: url(../images/correo2.png);
-                // background-position: center;
-                // background-size: cover;
+                background-image: url(../images/correo3.png);
+                background-position: center;
+                background-size: cover;
         }
     }
     .contactoBotones {
@@ -62,20 +62,21 @@
     }
 }
 }
-.correo {
-    img {
-        z-index: -5;
-        position:absolute;
-        top: 7rem;
-        right: 0.3rem;
-        border: none;
-        outline: none;
-        width: 10rem;
-        @include media ($lg) {
-            width: 25rem;
-            display:block;
-            bottom: 15rem;
-            right: 2rem;
-        }
-    }
-}
+// .correo {
+//     img {
+//         z-index: -5;
+//         position:absolute;
+//         top: 7rem;
+//         right: 0.3rem;
+//         border: none;
+//         outline: none;
+//         width: 10rem;
+//         @include media ($lg) {
+//             // width: 25rem;
+//             // display:block;
+//             // bottom: 15rem;
+//             // right: 2rem;
+//             display:none;
+//         }
+//     }
+// }

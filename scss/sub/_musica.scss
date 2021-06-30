@@ -6,7 +6,7 @@
     list-style: none;
     background-color: nth($colores, 4);
     height: 5rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     @include media ($sm) {
         font-size: 2rem;
         height: 6rem;
@@ -27,12 +27,13 @@
 }
 
 .musicaImgConteiner {
+    padding: 0;
     display: flex;
     flex-direction: column ;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     .musicaImg {
-        width: 25rem;
+        width: 20rem;
         align-self: center;
     }
     .musicaBtn {
@@ -42,7 +43,6 @@
         button {
             background-color: black;
             border: none;
-            // padding: 0.5rem 0;
             border-radius: 1rem;
             margin: 0 2.5rem;
             &:hover {
@@ -52,22 +52,13 @@
             a {
                 display: flex;
                 justify-content: center;
-                padding: 0.5rem 2rem;
+                // padding: 0.5rem 2rem;
+                padding: 0;
             }
         }
     }
 }
 
 .musicaImg {
-    @include overlayedImg (30rem, rgba(nth($colores, 8), 0.7));
-    img {
-        width:25rem;
-    }
-}
-
-.green {
-    color: nth($colores, 6)
-}
-.red {
-    color: nth($colores, 5 )
+    @include overlayedImg (10rem, rgba(nth($colores, 8), 0.7));
 }
