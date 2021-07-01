@@ -65,7 +65,7 @@
 .cafecito {
     padding: 0;
     display: none;
-    position: fixed;
+    position: absolute;
     bottom: 2.5rem;
     right: 3rem;
     z-index: 99;
@@ -73,5 +73,7 @@
     outline: none;
     div {
         padding: 0.4rem;
+        background-color: #ddd;
+        color: nth($colores, 2);
     }
 }

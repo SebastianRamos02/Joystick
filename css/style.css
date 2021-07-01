@@ -170,14 +170,16 @@ p {
 .cafecito {
   padding: 0;
   display: none;
-  position: fixed;
+  position: absolute;
   bottom: 2.5rem;
   right: 3rem;
   z-index: 99;
   border: none;
   outline: none; }
   .cafecito div {
-    padding: 0.4rem; }
+    padding: 0.4rem;
+    background-color: #ddd;
+    color: #1e1a1b; }
 
 .musicaBody {
   background-color: #1e1a1b; }
