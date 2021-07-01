@@ -32,7 +32,7 @@
 .suscribirse {
     background-color: nth($colores, 8);
     color: nth($colores, 1);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -43,12 +43,12 @@
     input {
         padding: 0 0.5rem;
         width: 20rem;
+        background-color: #ddd;
     }
     button {
-        @include miBoton(1.1rem);
+        @include miBoton(1.2rem);
         color: nth($colores, 1);
         background: none;
-        margin-top: 1.2rem;
         @include media ($lg) {
             margin-top: 0;
         }
