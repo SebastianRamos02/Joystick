@@ -1,5 +1,8 @@
 body {
   overflow-x: hidden; }
+  body .row {
+    margin-left: 0;
+    margin-right: 0; }
 
 * {
   margin: 0;
@@ -175,6 +178,7 @@ p {
   background-color: #1e1a1b; }
 
 .menuMusica {
+  padding: 0;
   list-style: none;
   background-color: #262525;
   height: 5rem;
