@@ -133,14 +133,18 @@ p {
 .suscribirse {
   background-color: #6d3333;
   color: #FAFAFA;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 18rem; }
+  @media only screen and (min-width: 992px) {
+    .suscribirse p {
+      font-size: 1.5rem; } }
   .suscribirse h2 {
     font-size: 2.2rem; }
   .suscribirse input {
+    font-size: 1.4rem;
     padding: 0 0.5rem;
     width: 20rem;
     background-color: #ddd; }
@@ -154,7 +158,8 @@ p {
     border: solid 0.1rem #FAFAFA;
     color: #FAFAFA;
     color: #FAFAFA;
-    background: none; }
+    background: none;
+    margin-top: 1rem; }
     .suscribirse button:hover {
       background-color: #FAFAFA;
       color: #1e1a1b; }
