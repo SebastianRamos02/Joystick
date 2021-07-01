@@ -341,7 +341,7 @@ p {
     display: flex;
     flex-direction: column; }
     .formContacto .textMsg textarea {
-      background-color: #a39498;
+      background-color: #2c2627;
       color: #ddd;
       height: 10rem;
       width: 55vw;

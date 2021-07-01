@@ -26,7 +26,7 @@
         display: flex;
         flex-direction: column;
         textarea {
-            background-color: lighten(nth($colores, 2), 50%);
+            background-color: lighten(nth($colores, 2), 5%);
             color: #ddd;
             height: 10rem;
             width: 55vw;
