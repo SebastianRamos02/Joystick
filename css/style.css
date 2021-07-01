@@ -129,6 +129,8 @@ p {
     .actualizacion a:hover {
       background-color: #FAFAFA;
       color: #1e1a1b; }
+    .actualizacion a .disabled:hover {
+      filter: opacity(20%); }
 
 .suscribirse {
   background-color: #6d3333;
@@ -158,6 +160,8 @@ p {
     .suscribirse button:hover {
       background-color: #FAFAFA;
       color: #1e1a1b; }
+    .suscribirse button .disabled:hover {
+      filter: opacity(20%); }
     @media only screen and (min-width: 992px) {
       .suscribirse button {
         margin-top: 0; } }
@@ -360,6 +364,8 @@ p {
       .formContacto .contactoBotones button:hover {
         background-color: #FAFAFA;
         color: #1e1a1b; }
+      .formContacto .contactoBotones button .disabled:hover {
+        filter: opacity(20%); }
   @media only screen and (min-width: 992px) {
     .formContacto {
       margin-top: 2rem;
@@ -389,6 +395,8 @@ p {
   .bandaBoton:hover {
     background-color: #FAFAFA;
     color: #1e1a1b; }
+  .bandaBoton .disabled:hover {
+    filter: opacity(20%); }
 
 .bio {
   color: #FAFAFA;
@@ -412,7 +420,7 @@ p {
   background: rgba(1, 1, 1, 0.7);
   display: flex;
   flex-direction: column;
-  justify-content: s  ce-around; }
+  justify-content: space-around; }
 
 .integrante {
   display: flex;
