@@ -483,3 +483,16 @@ p {
         width: 5rem; }
   .bandaImg .overlay {
     margin: 0; }
+
+.errorText {
+  margin: 3rem 6rem;
+  font-size: 1.5rem;
+  color: white;
+  line-height: 3rem; }
+  .errorText h1 {
+    font-size: 3rem; }
+
+.errorLan {
+  background-image: url(../images/404image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }

@@ -52,8 +52,8 @@
 }
 .noBack {
     @include media ($lg) {
-    background: none;
-}
+        background: none;
+    }
 }
 .actual {
     background-color: lighten(nth($colores, 3), 8%);
@@ -97,4 +97,4 @@
     img {
         width: 3rem;
     }
-    }
+}
