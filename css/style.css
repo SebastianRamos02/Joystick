@@ -485,14 +485,27 @@ p {
     margin: 0; }
 
 .errorText {
-  margin: 3rem 6rem;
-  font-size: 1.5rem;
-  color: white;
-  line-height: 3rem; }
-  .errorText h1 {
-    font-size: 3rem; }
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  @media only screen and (min-width: 992px) {
+    .errorText {
+      margin: 3rem 6rem;
+      font-size: 1.5rem;
+      line-height: 3rem; }
+      .errorText h1 {
+        font-size: 3rem; } }
 
 .errorLan {
+  height: 100vh;
   background-image: url(../images/404image.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
+  @media only screen and (min-width: 992px) {
+    .errorLan {
+      background-position: unset; } }
